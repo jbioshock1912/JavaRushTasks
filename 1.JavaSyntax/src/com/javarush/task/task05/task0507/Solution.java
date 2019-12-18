@@ -10,17 +10,17 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int sum = 0; while (true) {
-
+        double sum = 0;
+        double i = -1;
+        while (true) {
             String numString = reader.readLine();
-            int num = Integer.parseInt(numString);
+            double num = Integer.parseInt(numString);
             sum = sum + num;
-
-            if (num == -1)
-            {System.out.println(sum);
-                break;}
-
-
+            i++;
+            if (num == -1) {
+                System.out.println((sum + 1) / i);
+                break;
+            }
         }
     }
 }
