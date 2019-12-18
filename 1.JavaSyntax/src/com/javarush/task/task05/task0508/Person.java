@@ -21,7 +21,7 @@ public class Person {
         return sex;
     }
 
-    public void setName(String name) { // почему Name
+    public void setName(String name) {
         this.name = name;
     }
 
@@ -29,11 +29,10 @@ public class Person {
         this.age = age;
     }
 
-    public void setSexSea(char sex) {
+    public void setSex(char sex) {
         this.sex = sex;
     }
 
     public static void main(String[] args) {
-
     }
 }
