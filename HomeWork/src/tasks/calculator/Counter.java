@@ -5,11 +5,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Counter {
-
     static double result = 0;
 
-
-    public void sum(double first, double second) throws IOException {
+    public void summation(double first, double second) throws IOException {
         double total = first + second;
         System.out.println(first + " + " + second + " = " + total);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -21,11 +19,9 @@ public class Counter {
             result = total;
             System.out.println(result);
         }
-
     }
 
-
-    public void mult(double first, double second) throws IOException {
+    public void multiplication(double first, double second) throws IOException {
         double total = first * second;
         System.out.println(first + " * " + second + " = " + total);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -39,8 +35,8 @@ public class Counter {
         }
     }
 
-    public void minus(double first, double second) throws IOException {
-        double total = first * second;
+    public void subtraction(double first, double second) throws IOException {
+        double total = first - second;
         System.out.println(first + " - " + second + " = " + total);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
@@ -53,8 +49,8 @@ public class Counter {
         }
     }
 
-    public void div(double first, double second) throws IOException {
-        double total = first - second;
+    public void division(double first, double second) throws IOException {
+        double total = first / second;
         System.out.println(first + " / " + second + " = " + total);
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
@@ -67,12 +63,9 @@ public class Counter {
         }
     }
 
-
     public static void main(String[] args) throws IOException {
         Counter simple = new Counter();
-        simple.sum(2, 3);
     }
-
 }
 
 
