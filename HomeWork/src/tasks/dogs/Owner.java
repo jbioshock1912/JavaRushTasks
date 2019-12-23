@@ -5,6 +5,12 @@ public class Owner {
     private String secondName;
     private Dog hound;
 
+    public Owner(String name, String secondName, Dog hound) {
+        this.name = name;
+        this.secondName = secondName;
+        this.hound = hound;
+    }
+
     public Owner(String name, String secondName) {
         this.name = name;
         this.secondName = secondName;
@@ -16,11 +22,5 @@ public class Owner {
 
     public String toString() {
         return name + " " + secondName;
-    }
-
-    public Owner(String name, String secondName, Dog hound) {
-        this.name = name;
-        this.secondName = secondName;
-        this.hound = hound;
     }
 }

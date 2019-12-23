@@ -13,8 +13,7 @@ public class Counter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
         String save = reader.readLine();
-        String answer;
-        answer = save;
+        String answer = save;
         if (answer.toLowerCase().equals("yes")) {
             result = total;
             System.out.println(result);
@@ -27,8 +26,7 @@ public class Counter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
         String save = reader.readLine();
-        String answer;
-        answer = save;
+        String answer = save;
         if (answer.toLowerCase().equals("yes")) {
             result = total;
             System.out.println(result);
@@ -41,8 +39,7 @@ public class Counter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
         String save = reader.readLine();
-        String answer;
-        answer = save;
+        String answer = save;
         if (answer.toLowerCase().equals("yes")) {
             result = total;
             System.out.println(result);
@@ -55,8 +52,7 @@ public class Counter {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Сохранить результат в итоговом значении?");
         String save = reader.readLine();
-        String answer;
-        answer = save;
+        String answer = save;
         if (answer.toLowerCase().equals("yes")) {
             result = total;
             System.out.println(result);
