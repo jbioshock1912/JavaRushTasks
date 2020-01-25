@@ -71,7 +71,7 @@ public class ArrayStorage {
                 count++;
             }
         }
-        System.out.println("Количество числе, которые делятся на три без оставтка: " + count);
+        System.out.println("Количество чисел, которые делятся на три без оставтка: " + count);
     }
 
     public void toFindFigure() throws IOException {
@@ -116,3 +116,6 @@ public class ArrayStorage {
         storage.toRightShift();
     }
 }
+
+
+//Внимательно - пустые строки внтури методов!
